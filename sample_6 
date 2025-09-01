@@ -1,0 +1,6 @@
+client  - server
+4 handshake happens
+clinet - request
+server - offer of ip address pool  - 10.10.0.2 - 10.10.0.10
+clinet  - 10.10.0.2
+server acknowledge that ip address

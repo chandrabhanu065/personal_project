@@ -1,0 +1,15 @@
+from selenium import webdriver
+
+driver = webdriver.Chrome("executable path")
+
+driver.get("facebook.com")
+
+dropdwon_lement = driver.find_element(By.ID, "drop_dowm")
+
+select = Select(dropdown_elelemnt)
+
+select.select_by_visible_by_text("swift")
+
+print()
+
+driver.quit()

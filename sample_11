@@ -1,0 +1,5 @@
+FROM python:latest
+WORKDIR PERSONAL_PROJECT
+COPY resvers_word.py requirement.txt ./
+RUN requirement.txt
+CMD ["python", "reverse_words.py"]

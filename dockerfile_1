@@ -1,0 +1,4 @@
+FROM python:3.10-slim         # Base image
+WORKDIR /Users/chandrabhanu/Documents/PERSONAL_PROJECT/    # Working directory in the container
+#COPY sample_2.py .            # Copy script into container
+CMD ["python", "sample_2.py"] # Run script on start
